@@ -1,5 +1,5 @@
 # Testing Password Reset Functionality
-1. Look for Password Reset Poisoning.
+1. Look for Password Reset Poisoning. (Change the X-Forwarded-host, Referer, Host header to our domain)
 2. HTTP Parameter Pollution:
 ```
 email=victim@gmail.com&email=attacker@gmail.com
