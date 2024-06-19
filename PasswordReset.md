@@ -45,6 +45,10 @@ Check if the password reset link is manipulated or not.
 23. Check whether any param value is reflecting in the email. Now try HTMLi.
 24. XXE (if forgot-password request accepts xml).
 25. Missing Rate Limit - Email triggering.
+26. If a link with token is sent to the email, try using an old token in a checkout page for example: https://www.youtube.com/watch?v=4w9891MjY4I
+27. Password reset token does not expire: Request a password reset link, change the account's email, Check if the password reset link still works
+28. Email Verification Bypass 
+
 
 Reference:
 - https://twitter.com/tuhin1729_/status/1437471718142976007
