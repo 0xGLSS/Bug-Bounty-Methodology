@@ -15,6 +15,10 @@
 2. Click the drop-down arrow by the side of the Send button and select "Send group in parallel"
 3. Click Send group. Repeater sends all of the requests from the grouped tabs.
 
+### Turbo Intruder extension
+Turbo Intruder requires some proficiency in Python, but is suited to more complex attacks, such as ones that require multiple retries, staggered request timing, or an extremely large number of requests.
+
+
 # Refrences
 https://portswigger.net/web-security/race-conditions
 
