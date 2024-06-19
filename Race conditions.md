@@ -2,14 +2,11 @@
 1. Create a group and duplicate tabs within it.
 2. Click the drop-down arrow by the side of the Send button and select "Send group in parallel"
 3. Click Send group. Repeater sends all of the requests from the grouped tabs.
-### Things to do:
-    Using a redeem code multiple times
-    
-    Rating a product multiple times
-    
-    Withdrawing or transferring cash in excess of your account balance
-    
-    Reusing a single CAPTCHA solution
+    ### Use cases
+    1. Using a redeem code multiple times
+    2. Rating a product multiple times
+    3. Withdrawing or transferring cash in excess of your account balance
+    4. Reusing a single CAPTCHA solution
   
 ### Bypassing Rate limiting using Turbo Intruder
 
