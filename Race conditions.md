@@ -13,13 +13,13 @@
 Turbo Intruder is suited to more complex attacks, such as ones that require multiple retries, staggered request timing, or an extremely large number of requests.
 
 ### Probe for clues
-    1. Observe that after (x) number of concurent failed login attempts, you're temporarily locked out.
-    
-    2. Send the group of requests again in parallel.
-    
-    3. Study the responses. Notice that although you have triggered the account lock, more than (x) requests received the normal Invalid username and password response.
-    
-    4. Infer that if you're quick enough, you're able to submit more than three login attempts before the account lock is triggered.
+1. Observe that after (x) number of concurent failed login attempts, you're temporarily locked out.
+
+2. Send the group of requests again in parallel.
+
+3. Study the responses. Notice that although you have triggered the account lock, more than (x) requests received the normal Invalid username and password response.
+
+4. Infer that if you're quick enough, you're able to submit more than three login attempts before the account lock is triggered.
 
 ### Proof-of-concept
 1. Highlight the part you wanna brute-force (password=%s)
