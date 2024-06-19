@@ -54,3 +54,5 @@ Reference:
 - https://twitter.com/tuhin1729_/status/1437471718142976007
 - https://speakerdeck.com/tuhin1729/account-takeover-via-exploiting-misconfigured-password-reset-feature
 - https://speakerdeck.com/tuhin1729/abusing-password-reset-functionality
+
+https://labs.detectify.com/writeups/account-hijacking-using-dirty-dancing-in-sign-in-oauth-flows/
