@@ -1,3 +1,9 @@
 ### Any Suggestions/Feedbacks?
 
-We would love to hear your honest suggestions about the repository. It would help us to make changes to the repo & make it more useful. Kindly fill out this [form](https://forms.gle/xe6y4JRs5gofyjwf7). 
+## Race conditions
+
+  Redeeming a gift card multiple times
+  Rating a product multiple times
+  Withdrawing or transferring cash in excess of your account balance
+  Reusing a single CAPTCHA solution
+  Bypassing an anti-brute-force rate limit
