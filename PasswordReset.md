@@ -11,7 +11,8 @@ email=victim@gmail.com|email=attacker@gmail.com
 ```
 Check if you can reset victim's password using the link received in attacker's inbox.
 
-3. Look for IDOR while resetting password through password reset link. Use paramminer to discover additional parameters or append previously known parameters (For example, you may find a parameter uid while updating your profile) in the request.
+3. Look for IDOR while resetting password through password reset link. Use paramminer to discover additional parameters or append previously known parameters (For example, you may find a parameter uid while updating your profile) in the request. 
+https://medium.com/@deadoverflow/account-takeover-vulnerability-that-resulted-in-2500-bounty-e1618363878d
 4. Broken Crypto - Check if you can guess how the password reset tokens are generated.
 5. Password reset token Leakage via referral header - Open the password reset link and click on any external links available in the page. 
 6. Token leakage in response/JS files - Search for the password reset token in the response of the request or in JS files.
