@@ -2,7 +2,7 @@
 1. Create a group and duplicate tabs within it.
 2. Click the drop-down arrow by the side of the Send button and select "Send group in parallel"
 3. Click Send group. Repeater sends all of the requests from the grouped tabs.
-#### Things to do:
+### Things to do:
     Using a redeem code multiple times
     
     Rating a product multiple times
