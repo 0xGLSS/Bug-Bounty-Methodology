@@ -1,5 +1,3 @@
-### Any Suggestions/Feedbacks?
-
 ## Race conditions
 
   Redeeming a gift card multiple times
