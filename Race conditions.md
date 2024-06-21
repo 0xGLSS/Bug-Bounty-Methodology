@@ -13,12 +13,9 @@
 Turbo Intruder is suited to more complex attacks, such as ones that require multiple retries, staggered request timing, or an extremely large number of requests.
 
 ### Probe for clues
-1. Observe that after (x) number of concurent failed login attempts, you're temporarily locked out.
-
+1. if you're temporarily locked out. after (x) number of concurent failed login attempts
 2. Send the group of requests again in parallel.
-
 3. Study the responses. Notice that although you have triggered the account lock, more than (x) requests received the normal Invalid username and password response.
-
 4. Infer that if you're quick enough, you're able to submit more than three login attempts before the account lock is triggered.
 
 ### Proof-of-concept
@@ -53,11 +50,11 @@ Turbo Intruder is suited to more complex attacks, such as ones that require mult
     def handleResponse(req, interesting):
         table.add(req)
         
-Add Multi-endpoint Race Conditions
-https://www.youtube.com/watch?v=SvpxBM7s-G4
+ 
+[Multi-endpoint Race Conditions](https://www.youtube.com/watch?v=SvpxBM7s-G4).
 
-Single-endpoint Race Conditions
-https://portswigger.net/web-security/race-conditions/lab-race-conditions-single-endpoint
+
+[Single-endpoint Race Conditions] (https://portswigger.net/web-security/race-conditions/lab-race-conditions-single-endpoint)
 
 # Refrences
 https://portswigger.net/web-security/race-conditions
