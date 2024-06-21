@@ -5,8 +5,11 @@
 Use-cases
 
 > Using a redeem code multiple times
+
 > Rating a product multiple times
+
 > Withdrawing or transferring cash in excess of your account balance
+
 > Reusing a single CAPTCHA solution
 
 ## Bypassing Rate limiting using Turbo Intruder
