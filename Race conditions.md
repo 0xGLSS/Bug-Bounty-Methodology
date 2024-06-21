@@ -36,6 +36,7 @@ using high-resolution timestamps instead of cryptographically secure random stri
 [Web Shell Upload via Race Condition](https://www.youtube.com/watch?v=UaQKMR5XOXk)
 # Refrences
 https://portswigger.net/web-security/race-conditions
+https://infosecwriteups.com/race-condition-that-could-result-to-rce-a-story-with-an-app-that-temporary-stored-an-uploaded-9a4065368ba3
 
 https://portswigger.net/research/the-single-packet-attack-making-remote-race-conditions-local
 
