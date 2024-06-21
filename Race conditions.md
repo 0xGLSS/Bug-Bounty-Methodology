@@ -27,6 +27,9 @@ Use-cases
 Use-cases
 > Receive the password reset token sent to the victim's email
 
+[Time-sensitive attacks](https://portswigger.net/web-security/race-conditions/lab-race-conditions-exploiting-time-sensitive-vulnerabilities)
+using high-resolution timestamps instead of cryptographically secure random strings to generate security tokens.
+> trigger two password resets for two different users, which both use the same token.
 
 # Refrences
 https://portswigger.net/web-security/race-conditions
