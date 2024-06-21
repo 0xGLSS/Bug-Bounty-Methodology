@@ -1,9 +1,5 @@
-## Submitting a form multiple times using Burp repeater
-1. Create a group and duplicate tabs within it.
-2. Click the drop-down arrow by the side of the Send button and select "Send group in parallel"
-3. Click Send group. Repeater sends all of the requests from the grouped tabs.
+[Submitting a form multiple times using Burp repeater](https://portswigger.net/web-security/race-conditions/lab-race-conditions-limit-overrun)
 Use-cases
-
 > Using a redeem code multiple times
 
 > Rating a product multiple times
