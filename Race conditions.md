@@ -27,7 +27,7 @@ Turbo Intruder is suited to more complex attacks, such as ones that require mult
 3. From the drop-down menu, select the examples/race-single-packet-attack.py template
 4. In the Python editor, edit the template so that your attack queues the request once using each of the candidate passwords. For simplicity, you can copy the following example:
 
-'''
+'
 
     def queueRequests(target, wordlists):
     
@@ -53,7 +53,11 @@ Turbo Intruder is suited to more complex attacks, such as ones that require mult
     def handleResponse(req, interesting):
         table.add(req)
         
-'''
+Add Multi-endpoint Race Conditions
+https://www.youtube.com/watch?v=SvpxBM7s-G4
+
+Single-endpoint Race Conditions
+https://portswigger.net/web-security/race-conditions/lab-race-conditions-single-endpoint
 
 # Refrences
 https://portswigger.net/web-security/race-conditions
