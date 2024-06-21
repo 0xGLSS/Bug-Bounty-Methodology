@@ -19,8 +19,8 @@ https://medium.com/@deadoverflow/account-takeover-vulnerability-that-resulted-in
 7. Session/Token is not expiring after password reset.
 8. Weak Password Policy - Add only space in password.
 9. Request for 2 password reset links and try the older one.
-9.1. (RTLO)[https://hackerone.com/reports/563268]
-9.2. (BYPASS)[https://hackerone.com/reports/271324]
+(RTLO)[https://hackerone.com/reports/563268]
+(BYPASS)[https://hackerone.com/reports/271324]
 10. Try:
 ```
 POST https://attacker.com/resetpassword.php HTTP/1.1
@@ -35,7 +35,7 @@ Check if the password reset link is manipulated or not.
 13. Register with a username identical to the victim's username, but with white spaces inserted before and/or after the username("tuhin1729 ", " tuhin1729 " etc). Try a password reset for your account. Use the token to reset victim's password. A similar vulnerability was found in CTFd ([CVE-2020-7245](https://cve.mitre.org/cgi-bin/cvename.cgi?name=2020-7245))
 14. Application Level DoS - Try to set a very long password and check if the response time is delayed or if you get a 5xx response.
 15. If they are sending an otp for password reset, try [2FA Bypass](https://github.com/tuhin1729/Bug-Bounty-Methodology/blob/main/2FA.md) techniques.
-16. During registration, use homograph in email. Now try password reset.
+16. During registration, use graph in email. Now try password reset.
 17. Change the request method and content-type and observer how the application is responding.
 18. Append null bytes after your email and observe the response.
 19. Try XSS, SSTI etc in the email field.
