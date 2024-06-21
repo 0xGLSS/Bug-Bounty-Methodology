@@ -10,7 +10,8 @@ Use-cases
 > Reusing a single CAPTCHA solution
 
 [Bypassing Rate limiting using Turbo Intruder](https://portswigger.net/web-security/race-conditions/lab-race-conditions-bypassing-rate-limits)
-
+Use-cases
+> [Brute-force](https://thezerohack.com/hack-any-instagram)
  
 [Multi-endpoint Race Conditions](https://www.youtube.com/watch?v=SvpxBM7s-G4)
 
