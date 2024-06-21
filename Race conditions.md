@@ -54,7 +54,7 @@ Turbo Intruder is suited to more complex attacks, such as ones that require mult
 [Multi-endpoint Race Conditions](https://www.youtube.com/watch?v=SvpxBM7s-G4).
 
 
-[Single-endpoint Race Conditions] (https://portswigger.net/web-security/race-conditions/lab-race-conditions-single-endpoint)
+[Single-endpoint Race Conditions](https://portswigger.net/web-security/race-conditions/lab-race-conditions-single-endpoint)
 
 # Refrences
 https://portswigger.net/web-security/race-conditions
