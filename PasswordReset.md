@@ -47,7 +47,7 @@ Check if the password reset link is manipulated or not.
 26. If a link with token is sent to the email, try using an old token in a checkout page for example: https://www.youtube.com/watch?v=4w9891MjY4I
 27. Password reset token does not expire: Request a password reset link, change the account's email, Check if the password reset link still works
 28. Email Verification Bypass
-29. Is there a way to (login without password)?[https://zseano.medium.com/how-re-signing-up-for-an-account-lead-to-account-takeover-3a63a628fd9f]
+29. Is there a way to [login without password]?(https://zseano.medium.com/how-re-signing-up-for-an-account-lead-to-account-takeover-3a63a628fd9f)
 
 
 Reference:
