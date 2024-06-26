@@ -67,7 +67,7 @@ query {
 > [!NOTE]
 > if a depth check is implemented it should prevent malicious queries from going through.
 
-## (GraphQL CSRF)[https://portswigger.net/web-security/graphql#graphql-csrf]
+## [GraphQL CSRF](https://portswigger.net/web-security/graphql#graphql-csrf)
 
 6. 
 
