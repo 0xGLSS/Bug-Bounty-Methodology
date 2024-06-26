@@ -33,8 +33,12 @@
         }
       }
     }
+> [!NOTE]
+> if a depth check is implemented it should prevent malicious queries from going through.
+
     
 
 
 
 5. CSRF over Graphql
+6. 
