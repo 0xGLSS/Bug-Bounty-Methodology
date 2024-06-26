@@ -13,7 +13,7 @@ requests.post('http://host/graphql', json=data)
 ```
 
 ### Aliases based Attack
-If batching is disabled, use (aliases)[https://portswigger.net/web-security/graphql#bypassing-rate-limiting-using-aliases], if the server is not analyzing the cost of the query, it can be used to DOS, or it can be used to bypass rate limiting on Login, OTP...
+If batching is disabled, use [aliases](https://portswigger.net/web-security/graphql#bypassing-rate-limiting-using-aliases), if the server is not analyzing the cost of the query, it can be used to DOS, or it can be used to bypass rate limiting on Login, OTP...
 
 ```
 query {
@@ -104,5 +104,4 @@ Doesn't differ from regular [CSRF](https://portswigger.net/web-security/graphql#
 - Send same reset password token to 2 emails (similar to race condition) using GraphQL Batching attack
 
 ## Refrences
-- [Bypassing rate limiting using Aliases](https://portswigger.net/web-security/graphql#bypassing-rate-limiting-using-aliases)
 - [GraphQL Batching attack](https://lab.wallarm.com/graphql-batching-attack/)
