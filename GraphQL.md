@@ -130,7 +130,7 @@ SSRF, SQLi, XSS, Path Traversal
 - ShapeShifter - GQL Security tool for Schema Extraction
 - Clairvoyance - GraphQL Schema Enumeration Discovery Tool
 - graphw00f - GraphQL Fingerprinting Tool
-- https://github.com/dolevf/graphql-cop.gitDirective OverloadingDirective Overloading
+- [graphql-cop - Security Auditor Utility for GraphQL APIs](https://github.com/dolevf/graphql-cop)
 
 ## Ideas:
 - Send same reset password token to 2 emails (similar to race condition) using GraphQL Batching attack
