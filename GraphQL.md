@@ -28,9 +28,10 @@ query isValidDiscount($code: Int) {
 > [!NOTE]
 > if Cost Query Analysis is enabled, it should prevent running batched queries.
 
-## Denial of Service :: Deep Recursion Query Attack
 
-5. If The application offers two types, which reference eachother (Type1 has Type2, and Type2 has Type1), it recursive query to be executed successfully.
+
+## Denial of Service :: Deep Recursion Query Attack
+If The application offers two types, which reference eachother (Type1 has Type2, and Type2 has Type1), it recursive query to be executed successfully.
 
 ![Example](https://github.com/0xGLSS/Bug-Bounty-Methodology/assets/85647797/cc9686ca-662c-4327-95c6-e2e47ceca255)
 
@@ -63,15 +64,11 @@ query {
   }
 }
 ```
-
 > [!NOTE]
 > if a depth check is implemented it should prevent malicious queries from going through.
 
+## (GraphQL CSRF)[https://portswigger.net/web-security/graphql#graphql-csrf]
 
-
-
-
-5. CSRF over Graphql
 6. 
 
 ## Ideas:
