@@ -8,7 +8,7 @@
 
 [Click here to show/hide image](#)
 
-![Hidden Image]([your-image-url.jpg](https://github.com/0xGLSS/Bug-Bounty-Methodology/assets/85647797/cc9686ca-662c-4327-95c6-e2e47ceca255))
+![Hidden Image](https://github.com/0xGLSS/Bug-Bounty-Methodology/assets/85647797/cc9686ca-662c-4327-95c6-e2e47ceca255)
 '
 
     query {
