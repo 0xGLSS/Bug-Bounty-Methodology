@@ -13,7 +13,7 @@ requests.post('http://host/graphql', json=data)
 ```
 
 ### Aliases based Attack
-If batching is disabled, use aliases, if the server is not analyzing the cost of the query, it can be used to DOS, or it can be used to bypass rate limiting on Login, OTP...
+If batching is disabled, use (aliases)[https://portswigger.net/web-security/graphql#bypassing-rate-limiting-using-aliases], if the server is not analyzing the cost of the query, it can be used to DOS, or it can be used to bypass rate limiting on Login, OTP...
 
 ```
 query {
