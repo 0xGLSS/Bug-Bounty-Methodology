@@ -28,7 +28,7 @@ query {
 > if Cost Query Analysis is enabled, it should prevent running batched queries.
 
 
-# 2 - Denial of Service 
+# 2 - Denial of Service
 ### 2.1 :: Deep Recursion Query Attack
 If The application offers two types, which reference eachother (Type1 has Type2, and Type2 has Type1), it recursive query to be executed successfully.
 
@@ -94,14 +94,44 @@ query {
 }
 ```
 
+### 2.4 Circular Fragment
+The GraphQL API allows creating circular fragments, such that two fragments are cross-referencing eachother. When a Spread Operator (...) references a fragment, which in return references a 2nd fragment that leads to the former fragment, may cause a recursive loop and crash the server.
+
+Resources
+ GraphQL Specification - Fragments Must Not Form Cycles
+ GraphQL Cop - Security Auditing Tool for GraphQL
+
+# 3 Information Disclosure
+### 3.1 GraphQL suggestions
+when Introspection is not allowed suggesstions can be used togain more insight into GraphQL's schema, 
+[Clairvoyance - GQL Security tool for field enumeration](https://github.com/nikitastupin/clairvoyance)
 
 
-# 3 - GraphQL CSRF
+### 3.2 GraphQL Interface
+GraphiQL is usually found in paths such as: /graphiql or /console, however it can be found in [other places too](https://raw.githubusercontent.com/anmolksachan/anmolksachan.github.io/main/graphql/graphql-common.txt)
+
+
+# 4 - OWASP
+### 4.1 CSRF
 Doesn't differ from regular [CSRF](https://portswigger.net/web-security/graphql#graphql-csrf) 
+### 4.1 OS Command Injection
+```
+mutation  {
+  importPaste(host:"localhost", port:80, path:"/ ; uname -a", scheme:"http"){
+    result
+  }
+}
+```
+SSRF, SQLi, XSS, Path Traversal
+## Refrences
+- [GraphQL Batching attack](https://lab.wallarm.com/graphql-batching-attack/)
 
+## Tools
+- ShapeShifter - GQL Security tool for Schema Extraction
+- Clairvoyance - GraphQL Schema Enumeration Discovery Tool
+- graphw00f - GraphQL Fingerprinting Tool
+- https://github.com/dolevf/graphql-cop.gitDirective OverloadingDirective Overloading
 
 ## Ideas:
 - Send same reset password token to 2 emails (similar to race condition) using GraphQL Batching attack
 
-## Refrences
-- [GraphQL Batching attack](https://lab.wallarm.com/graphql-batching-attack/)
